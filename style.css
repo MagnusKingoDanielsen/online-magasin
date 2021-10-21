@@ -1,0 +1,263 @@
+::after,
+::before{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --font: 'Antonio', sans-serif
+    /* 
+    'Antonio', sans-serif
+    'Bebas Neue', cursive
+    'Bitter', serif
+    'Crimson Text', serif
+    'Montserrat', sans-serif
+    'Raleway', sans-serif
+    'Roboto', sans-serif */
+}
+
+.page_body{
+    font-family: var(--font);
+    min-width: 100%;
+    margin: 0 auto;
+    background-color: whitesmoke;
+}
+
+.navigation_container{
+    background: #000000;
+    position: sticky;
+    top: 0;
+}
+
+.dropdown {
+    position: relative;
+    display: block;   
+    max-height: 100px;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    min-width: 100%;
+}
+  
+.dropdown-content a {
+    background-color: #425288;
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-family: var(--font);
+}
+  
+.dropdown-content a:hover {background-color: #163172;
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+  
+.dropdown:hover .dropbtn {
+    background-color: #163172;
+}
+    
+.companylogo{
+    max-height: 100px;
+}
+
+.companylogo img{
+    display:flex;
+    max-height: 100px;
+}
+
+.dropbtn {
+    background-color: #425288;
+    color: white;
+    font-size: 1.5rem;
+    border: none;
+    cursor: pointer;
+    min-width: 15vw;
+    height: 100px;
+    font-family: var(--font);
+}
+
+.menuitems_container{
+    display: flex;
+    min-height: 100px;
+    background-image: linear-gradient(to right,#30407d,#30407d, #425288, #425288);
+    justify-content: center;
+    flex-direction: row;
+}
+
+.wrapper{
+    width: 960px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-left: 0;
+}
+
+.main{
+    width: 100%;
+    justify-content: space-between;
+}
+
+.main h1{
+    margin-bottom: 0;
+    padding-left: 20px;
+}
+
+.article1{
+    background-image:url(img/Ikke-navngivet-5.png);
+    width: 100%;
+    min-height: 400px;
+    display: flex;
+    align-items:flex-end;
+    margin-bottom: 20px;
+}
+
+.article2{
+    background-image:url(img/spaghetti.png);
+    width: 470px;
+    min-height: 300px;
+    display: flex;
+    align-items:flex-end;
+    margin-right:10px;
+    margin-bottom: 20px;
+    float: left;
+}
+
+.article3{
+    background-image:url(img/eevee.png);
+    width: 470px;
+    min-height: 300px;
+    display: flex;
+    align-items:flex-end;
+    margin-left:10px;
+    margin-bottom: 20px;
+    float: left;
+}
+    
+.article4{
+    background-image:url(img/udstyr.png);
+    width: 310px;
+    min-height: 300px;
+    display: flex;
+    align-items:flex-end;
+    margin-right: 7.5px;
+    margin-bottom: 20px;
+    float: left;
+}
+
+.article5{
+    background-image:url(img/veligeholdelse.png);
+    width: 310px;
+    min-height: 300px;
+    display: flex;
+    align-items:flex-end;
+    margin-left: 7.5px;
+    margin-right: 7.5px;
+    margin-bottom: 20px;
+    float: left;
+}
+
+.article6{
+    background-image:url(img/Materialer.png);
+    width: 310px;
+    min-height: 300px;
+    display: flex;
+    align-items:flex-end;
+    margin-left:7.5px;
+    margin-bottom: 20px;
+    float: left;
+}
+
+.artikler{
+    width: 470px;
+    min-height: 300px;
+    display: flex;
+    margin-bottom: 20px;
+    float: left;
+}
+
+.kolonne{
+    padding: 20px;
+    padding-top: 0;
+}
+
+.kolonne h2{
+    margin-top: 16px;
+    margin-bottom: 0;
+}
+
+.tekstfelt{
+    background-color: #425288e7;
+    width: 100%;
+    color: white;
+    padding: 0;
+}
+
+footer {
+   	background-color: #425288;
+   	color: white;
+    display: block;
+    justify-content: space-between;
+}
+
+.footer-info {
+    width: 960px;
+    display: flex;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    color: white;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.tekstfelt h1{
+    font-size: 30px;
+    margin: 0;
+    padding: 10px;
+    padding-left: 20px;
+}
+
+.tekstfelt h2{
+    font-size: 20px;
+    margin: 0;
+    padding: 10px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.tekstfelt a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer-info h5{
+    color: white;
+  	font-size:16px;
+    margin: 10px;
+}
+
+.footer-info a:hover{
+  	color:black;
+}
+
+.footer-info a{
+    text-decoration: none;
+}
+
+.footer-info ul{
+    padding-top: 20px;
+    list-style: none;
+    margin: 0;
+}
